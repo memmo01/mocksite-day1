@@ -11,6 +11,7 @@ nav {
   background-color: rgba(238, 238, 238, 1);
   display: inline-block;
   text-align: center;
+  /* height: 100px; */
 }
 
 .hamburger {
@@ -41,24 +42,28 @@ header {
   padding: 50px 20px 100px 10px;
   margin-left: 10px;
 }
+section h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
 
 header h1 {
   border-left: 6px solid black;
   padding-left: 10px;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 600;
 }
 header p {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 35px;
 }
 
 section {
   padding: 20px;
 }
-section h1 {
-  font-size: 50px;
-  weight: 600;
+#guidesArticle p {
+  font-size: 40px;
+  line-height: 80px;
 }
 
 #guidesArticle li,
@@ -68,7 +73,7 @@ ul {
   margin-top: 10px;
 }
 #guidesArticle li {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 article h3 {
@@ -79,7 +84,7 @@ article h3 {
 article p,
 a {
   margin-top: 20px;
-  padding: 20px;
+  padding: 50px;
 }
 p {
   line-height: 40px;
@@ -99,7 +104,10 @@ hr {
 .newInfo article {
   background-color: rgba(238, 238, 238, 1);
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
+
+  line-height: 50px;
+  font-size: 20px;
 }
 
 .newInfo h4 {
@@ -128,7 +136,11 @@ hr {
 }
 
 footer {
-  background-color: black;
+  background-color: rgba(57, 62, 70, 1);
   color: white;
   height: 100px;
+  text-align: center;
+}
+footer p {
+  padding-top: 30px;
 }
