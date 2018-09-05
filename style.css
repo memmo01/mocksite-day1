@@ -33,7 +33,6 @@ main {
   background-image: url("./images/hex.jpg");
   background-position: center;
   background-size: cover;
-  height: 500px;
   font-size: 30px;
 }
 
@@ -60,6 +59,10 @@ header p {
 
 section {
   padding: 20px;
+}
+
+#guidesArticle h1 {
+  padding-top: 20px;
 }
 #guidesArticle p {
   font-size: 40px;
@@ -143,4 +146,128 @@ footer {
 }
 footer p {
   padding-top: 30px;
+}
+aside {
+  display: none;
+}
+@media (min-width: 600px) {
+  section h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  header h1 {
+    border-left: 6px solid black;
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  header p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  #guidesArticle p {
+    font-size: 20px;
+    line-height: 60px;
+  }
+  #guidesArticle ul {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #guidesArticle li {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    word-wrap: normal;
+  }
+  .outterIcon {
+    border-radius: 50px;
+    text-align: center;
+    width: 70px;
+    padding: 20px 0 20px 0;
+    margin-left: 20px;
+  }
+  .outterIcon i {
+    font-size: 30px;
+  }
+  article {
+    padding-left: 20px;
+  }
+  article h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+  }
+  article p,
+  a {
+    margin-top: 5px;
+    padding: 10px 10px 10px 0;
+  }
+  .hamburger {
+    font-size: 10px;
+  }
+
+  .navSearch {
+    float: right;
+    padding: 10px;
+    font-size: 10px;
+  }
+  #options {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #options article {
+    width: 40%;
+    margin-left: 5%;
+    display: inline-block;
+  }
+  hr {
+    margin: 50px 0 40px 10%;
+  }
+}
+@media (min-width: 770px) {
+  #secondSection {
+    display: inline-flex;
+    width: 100%;
+    display: flex;
+  }
+  #secondSection article {
+    width: 50%;
+    margin-left: 20px;
+    flex: 1;
+  }
+
+  aside {
+    flex: 1;
+    display: block;
+    width: 30%;
+  }
+  #sideImage img {
+    width: 10px;
+  }
+  #options {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+  }
+  #options article {
+    padding: 0 10px 0 10px;
+    margin: 0;
+    width: 23%;
+    display: inline-block;
+  }
+  hr {
+    margin: 50px 0 0 10%;
+  }
+  .group {
+    display: inline-block;
+    display: flex;
+  }
+  .newInfo {
+    display: inline-block;
+    width: 40%;
+    flex: 1;
+  }
 }
