@@ -1,0 +1,101 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(238, 238, 238, 1);
+  display: inline-block;
+  text-align: center;
+}
+
+.hamburger {
+  float: left;
+  padding: 10px;
+}
+
+.navSearch {
+  float: right;
+  padding: 10px;
+}
+
+main {
+  clear: both;
+  width: 100%;
+}
+
+#firstSection {
+  background-image: url("./images/hex.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  width: 60%;
+  padding: 50px 20px 100px 10px;
+  margin-left: 10px;
+}
+
+header h1 {
+  border-left: 6px solid black;
+  padding-left: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+#guidesArticle li,
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+hr {
+  width: 80%;
+  border: 3px solid rgba(238, 238, 238, 1);
+}
+
+#options article:nth-child(n + 2) {
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.newInfo article {
+  background-color: rgba(238, 238, 238, 1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.newInfo h4 {
+  color: orange;
+}
+
+.outterIcon {
+  border-radius: 50px;
+  text-align: center;
+  width: 50px;
+  padding: 10px 0 10px 0;
+}
+
+#awardIcon {
+  background-color: rgba(199, 213, 159, 1);
+}
+
+#groupIcon {
+  background-color: rgba(199, 213, 159, 1);
+}
+
+#file {
+  background-color: rgba(199, 213, 159, 1);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+}
